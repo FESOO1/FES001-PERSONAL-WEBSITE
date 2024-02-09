@@ -45,11 +45,11 @@ body {
     border-radius: 0.2rem;
 }
 
-.home-link,
-.info-link,
-.contact-link,
-.theme-link,
-.navbar-change-link {
+.home-link > a,
+.info-link > a,
+.contact-link > a,
+.theme-link > a,
+.navbar-change-link > a {
     border-radius: 0.2rem;
     display: flex;
     align-items: center;
@@ -57,20 +57,14 @@ body {
     padding: 3px;
 }
 
-.home-link:hover,
-.info-link:hover,
-.contact-link:hover,
-.theme-link:hover,
-.navbar-change-link:hover {
+.home-link:hover > a,
+.info-link:hover > a,
+.contact-link:hover > a,
+.theme-link:hover > a,
+.navbar-change-link:hover > a {
     background: rgba(48, 48, 48, 0.5);
 }
 
-.home-link > svg,
-.info-link > svg,
-.contact-link > svg,
-.navbar-change-link > svg {
-    fill: #dc1c1c;
-}
 
 .home-link:hover::after {
     content: 'Home';
