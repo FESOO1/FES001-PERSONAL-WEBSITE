@@ -2,8 +2,8 @@
 
 /* POSITION NAVBAR */
 
-const topBtn = document.querySelector('.position-top');
-const bottomBtn = document.querySelector('.position-bottom');
+const topBtn = document.querySelector('.navbar-change-top-link');
+const bottomBtn = document.querySelector('.navbar-change-bottom-link');
 const navbarContainer = document.querySelector('.navbar');
 
 function bottomPosition() {
@@ -18,6 +18,8 @@ function bottomPosition() {
         navbarContainer.style.bottom = '5px';
         return
     }
+
+    navbarContainer.style.bottom = '5px';
 }
 
 function topPosition() {
@@ -28,5 +30,5 @@ function topPosition() {
         return
     }
 
-    document.querySelector('body').style.backgroundColor = 'red';
+    navbarContainer.style.top = '5px';
 }
