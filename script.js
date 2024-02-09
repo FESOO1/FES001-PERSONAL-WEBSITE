@@ -14,6 +14,10 @@ function bottomPosition() {
         return
     }
 
+    if(bottomBtn.style.display = 'none') {
+        navbarContainer.style.bottom = '5px';
+        return
+    }
 }
 
 function topPosition() {
