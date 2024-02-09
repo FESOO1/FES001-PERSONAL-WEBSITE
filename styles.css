@@ -29,8 +29,13 @@ body {
 
 /* NAVBAR */
 
+.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .navbar {
-    left: 40%;
     top: 5px;
     position: fixed;
     width: 300px;
