@@ -72,9 +72,53 @@ body {
     fill: #dc1c1c;
 }
 
-.home-link::after {
+.home-link:hover::after {
     content: 'Home';
     position: absolute;
-    background: #00bbf9;
+    background: #353c4e;
     color: white;
+    padding: 3px 5px;
+    border-radius: 0.1rem;
+    margin-top: 92px;
+}
+
+.info-link:hover::after {
+    content: 'Info';
+    position: absolute;
+    background: #353c4e;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 0.1rem;
+    margin-top: 92px;
+}
+
+.contact-link:hover::after {
+    content: 'Contact';
+    position: absolute;
+    background: #353c4e;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 0.1rem;
+    margin-top: 92px;
+}
+
+.theme-link:hover::after {
+    content: 'Theme';
+    position: absolute;
+    background: #353c4e;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 0.1rem;
+    margin-top: 92px;
+}
+
+.navbar-change-link:hover::after {
+    content: 'Change the position of navbar';
+    position: absolute;
+    background: #353c4e;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 0.1rem;
+    margin-top: 92px;
+    width: 193px;
 }
