@@ -4,6 +4,7 @@
 
 const topBtn = document.querySelector('.position-top');
 const bottomBtn = document.querySelector('.position-bottom');
+const navbarContainer = document.querySelector('navbar');
 
 function bottomPosition() {
     bottomBtn.style.display = 'none';
