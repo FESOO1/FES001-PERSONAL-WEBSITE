@@ -2,7 +2,7 @@
     --background-color-of-all: rgb(21,20,25);
 
 
-    --navbar-color: #2c2c2c;
+    --navbar-color: #88c8fc;
 }
 
 * {
@@ -29,8 +29,11 @@ body {
     top: 5px;
     position: fixed;
     width: 300px;
-    height: 50px;
+    height: 60px;
     background: var(--navbar-color);
     border-radius: 0.2rem;
     border: 1px solid rgba(61, 61, 61, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
