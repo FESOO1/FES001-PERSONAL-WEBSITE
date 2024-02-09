@@ -53,7 +53,7 @@ body {
 .info-link > a,
 .contact-link > a,
 .theme-link > a,
-.navbar-change-link > a {
+.navbar-change-link {
     border-radius: 0.2rem;
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@ body {
 .info-link:hover > a,
 .contact-link:hover > a,
 .theme-link:hover > a,
-.navbar-change-link:hover > a {
+.navbar-change-link:hover {
     background: var(--navbar-links-hover-color);
 }
 
@@ -73,7 +73,7 @@ body {
 .info-link:active > a,
 .contact-link:active > a,
 .theme-link:active > a,
-.navbar-change-link:active > a {
+.navbar-change-link:active {
     background: var(--navbar-links-active-color);
 }
 
@@ -125,10 +125,9 @@ body {
     color: white;
     padding: 3px 5px;
     border-radius: 0.1rem;
-    margin-top: 10px;
+    margin-top: 100px;
     text-align: center;
     width: max-content;
-    margin-left: -70px;
 }
 
 /* NAVBAR POSITION */
