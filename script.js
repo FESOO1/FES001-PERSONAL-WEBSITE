@@ -18,8 +18,6 @@ function bottomPosition() {
         navbarContainer.style.bottom = '5px';
         return
     }
-
-    navbarContainer.style.bottom = '5px';
 }
 
 function topPosition() {
@@ -29,6 +27,4 @@ function topPosition() {
         bottomBtn.style.display = 'unset'
         return
     }
-
-    navbarContainer.style.top = '5px';
 }
