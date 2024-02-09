@@ -115,5 +115,7 @@ body {
     padding: 3px 5px;
     border-radius: 0.1rem;
     margin-top: 10px;
-    width: 193px;
+    text-align: center;
+    width: max-content;
+    margin-left: -70px;
 }
