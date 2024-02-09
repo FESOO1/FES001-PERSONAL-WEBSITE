@@ -6,6 +6,10 @@ const topBtn = document.querySelector('.position-top');
 const bottomBtn = document.querySelector('.position-bottom');
 const navbarContainer = document.querySelector('navbar');
 
+bottomBtn.addEventListener('click', function() {
+    navbarContainer.style.bottom = '15px';
+})
+
 function bottomPosition() {
     bottomBtn.style.display = 'none';
 
