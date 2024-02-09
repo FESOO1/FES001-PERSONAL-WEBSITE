@@ -27,4 +27,6 @@ function topPosition() {
         bottomBtn.style.display = 'unset'
         return
     }
+
+    document.querySelector('body').style.backgroundColor = 'red';
 }
