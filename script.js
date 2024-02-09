@@ -13,6 +13,7 @@ function bottomPosition() {
         topBtn.style.display = 'unset'
         return
     }
+
 }
 
 function topPosition() {
@@ -20,5 +21,6 @@ function topPosition() {
 
     if(topBtn.style.display = 'none') {
         bottomBtn.style.display = 'unset'
+        return
     }
 }
