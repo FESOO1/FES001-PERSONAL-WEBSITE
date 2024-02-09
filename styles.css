@@ -35,7 +35,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    column-gap: 5px;
+}
+
+.navbar > hr {
+    height: 55px;
+    border: 0;
+    border-left: 1px solid rgb(123, 123, 123);
+    border-radius: 0.2rem;
 }
 
 .home-link,
