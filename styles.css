@@ -119,3 +119,9 @@ body {
     width: max-content;
     margin-left: -70px;
 }
+
+/* NAVBAR POSITION */
+
+.position-top {
+    display: none;
+}
