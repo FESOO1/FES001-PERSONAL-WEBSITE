@@ -4,6 +4,9 @@
 
     /* --navbar-color: #4b4b4b; */
     --navbar-color: #353c4e;
+
+    --navbar-links-hover-color: #5e6c8b;
+    --navbar-links-active-color: #434d63;
 }
 
 * {
@@ -63,7 +66,15 @@ body {
 .contact-link:hover > a,
 .theme-link:hover > a,
 .navbar-change-link:hover > a {
-    background: #5e6c8b;
+    background: var(--navbar-links-hover-color);
+}
+
+.home-link:active > a,
+.info-link:active > a,
+.contact-link:active > a,
+.theme-link:active > a,
+.navbar-change-link:active > a {
+    background: var(--navbar-links-active-color);
 }
 
 
