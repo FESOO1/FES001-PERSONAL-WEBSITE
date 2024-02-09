@@ -1,6 +1,6 @@
 :root {
     --background-color-of-all: rgb(21,20,25);
-
+    /* --background-color-of-all: #eee0cb; */
 
     --navbar-color: #4b4b4b;
 }
@@ -23,6 +23,7 @@ body {
     justify-content: center;
 }
 
+/* NAVBAR */
 
 .navbar {
     left: 40%;
@@ -69,4 +70,11 @@ body {
 .contact-link > svg,
 .navbar-change-link > svg {
     fill: #dc1c1c;
+}
+
+.home-link::after {
+    content: 'Home';
+    position: absolute;
+    background: #00bbf9;
+    color: white;
 }
