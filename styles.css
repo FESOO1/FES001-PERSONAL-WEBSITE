@@ -32,16 +32,16 @@ body {
     height: 60px;
     background: var(--navbar-color);
     border-radius: 0.2rem;
-    border: 1px solid rgba(61, 61, 61, 0.5);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    column-gap: 20px;
+    column-gap: 5px;
 }
 
 .home-link,
 .info-link,
 .contact-link,
+.theme-link,
 .navbar-change-link {
     border-radius: 0.2rem;
     display: flex;
@@ -53,6 +53,7 @@ body {
 .home-link:hover,
 .info-link:hover,
 .contact-link:hover,
+.theme-link:hover,
 .navbar-change-link:hover {
     background: rgba(0,0,0,0.5);
 }
