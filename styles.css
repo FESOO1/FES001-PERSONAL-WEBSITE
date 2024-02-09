@@ -2,7 +2,8 @@
     --background-color-of-all: rgb(21,20,25);
     /* --background-color-of-all: #eee0cb; */
 
-    --navbar-color: #4b4b4b;
+    /* --navbar-color: #4b4b4b; */
+    --navbar-color: #353c4e;
 }
 
 * {
@@ -62,7 +63,7 @@ body {
 .contact-link:hover > a,
 .theme-link:hover > a,
 .navbar-change-link:hover > a {
-    background: rgba(48, 48, 48, 0.5);
+    background: #5e6c8b;
 }
 
 
@@ -73,7 +74,7 @@ body {
     color: white;
     padding: 3px 5px;
     border-radius: 0.1rem;
-    margin-top: 92px;
+    margin-top: 10px;
 }
 
 .info-link:hover::after {
@@ -83,7 +84,7 @@ body {
     color: white;
     padding: 3px 5px;
     border-radius: 0.1rem;
-    margin-top: 92px;
+    margin-top: 10px;
 }
 
 .contact-link:hover::after {
@@ -93,7 +94,7 @@ body {
     color: white;
     padding: 3px 5px;
     border-radius: 0.1rem;
-    margin-top: 92px;
+    margin-top: 10px;
 }
 
 .theme-link:hover::after {
@@ -103,7 +104,7 @@ body {
     color: white;
     padding: 3px 5px;
     border-radius: 0.1rem;
-    margin-top: 92px;
+    margin-top: 10px;
 }
 
 .navbar-change-link:hover::after {
@@ -113,6 +114,6 @@ body {
     color: white;
     padding: 3px 5px;
     border-radius: 0.1rem;
-    margin-top: 92px;
+    margin-top: 10px;
     width: 193px;
 }
