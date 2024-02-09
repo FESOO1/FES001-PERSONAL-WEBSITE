@@ -62,7 +62,7 @@ body {
 .contact-link:hover,
 .theme-link:hover,
 .navbar-change-link:hover {
-    background: rgba(0,0,0,0.5);
+    background: rgba(48, 48, 48, 0.5);
 }
 
 .home-link > svg,
