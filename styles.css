@@ -221,10 +221,7 @@ body {
     margin-top: 6px;
     width: 1300px;
     height: 600px;
-    background: linear-gradient(135deg,
-    rgb(188, 248, 255),
-    rgb(40, 37, 54)
-    );
+    background: rgb(88,88,99);
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
     position: absolute;
