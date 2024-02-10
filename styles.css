@@ -58,8 +58,7 @@ body {
 .info-link > a,
 .contact-link > a,
 .theme-link > a,
-.navbar-change-bottom-link > svg,
-.navbar-change-top-link > svg {
+.navbar-change-link > svg {
     border-radius: 0.2rem;
     display: flex;
     align-items: center;
@@ -71,8 +70,7 @@ body {
 .info-link:hover > a,
 .contact-link:hover > a,
 .theme-link:hover > a,
-.navbar-change-bottom-link:hover > svg,
-.navbar-change-top-link:hover > svg {
+.navbar-change-link:hover > svg {
     background: var(--navbar-links-hover-color);
 }
 
@@ -80,8 +78,7 @@ body {
 .info-link:active > a,
 .contact-link:active > a,
 .theme-link:active > a,
-.navbar-change-bottom-link:active > svg,
-.navbar-change-top-link:active > svg {
+.navbar-change-link:active > svg {
     background: var(--navbar-links-active-color);
 }
 
@@ -126,8 +123,7 @@ body {
     margin-top: 10px;
 }
 
-.navbar-change-bottom-link:hover::after,
-.navbar-change-top-link:hover::after {
+.navbar-change-link:hover::after {
     content: 'Change the position of navbar';
     position: absolute;
     background: #353c4e;
