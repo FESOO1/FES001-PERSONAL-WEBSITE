@@ -242,21 +242,3 @@ body {
     color: aqua;
 }
 
-/* MEDIA QUEIRIES */
-
-@media (max-width: 1500px) {
-    .home-section-inner > .home-text > h1 {
-        font-size: 4rem;
-    }
-}
-
-@media (max-width: 710px) {
-    .home-section-inner {
-        flex-direction: column;
-        justify-content: center;
-    }
-    .home-section-inner > .home-img > img {
-        width: 300px;
-        height: 300px;
-    }
-}
