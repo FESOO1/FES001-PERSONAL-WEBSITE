@@ -52,10 +52,26 @@ const homeSection = document.querySelector('.home-section')
 const infoSection = document.querySelector('.info-section')
 const contactSection = document.querySelector('.contact-section')
 
+document.querySelector('.home-link').addEventListener('click', function(){
+    infoSection.style.left = '-85%';
+
+    homeSection.style.left = '6%';
+
+    contactSection.style.right = '-85%'
+})
+
 document.querySelector('.info-link').addEventListener('click', function(){
     infoSection.style.left = '6%';
 
     homeSection.style.left = '-85%';
 
     contactSection.style.right = '-85%'
+})
+
+document.querySelector('.contact-link').addEventListener('click', function(){
+    infoSection.style.left = '-85%';
+
+    homeSection.style.left = '98%';
+
+    contactSection.style.right = '6%'
 })
