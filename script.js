@@ -2,34 +2,8 @@
 
 /* POSITION NAVBAR */
 
-const topBtn = document.querySelector('.navbar-change-top-link');
-const bottomBtn = document.querySelector('.navbar-change-bottom-link');
-const navMenu = document.querySelector('.navbar');
+const positionSvg = document.querySelector('.position-svg');
 
-/* function bottomPosition() {
-    bottomBtn.style.display = 'none';
-
-    if(bottomBtn.style.display == 'none') {
-        topBtn.style.display = 'unset'
-        return
-    }
-
-    if(bottomBtn.style.display == 'none') {
-        navbarContainer.style.bottom = '5px';
-        return
-    }
-
-    navMenu.style.bottom = '5px';
+function bottomtopPosition() {
+    positionSvg.classList.toggle('svgdirectionjs');
 }
-
-function topPosition() {
-    topBtn.style.display = 'none';
-
-    if(topBtn.style.display == 'none') {
-        bottomBtn.style.display = 'unset'
-        return
-    }
-    
-
-    navMenu.style.top = '5px';
-} */
