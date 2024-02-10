@@ -228,6 +228,7 @@ body {
     left: 6%;
     z-index: 10;
     transition: 200ms linear;
+    border: 1px solid rgba(222,222,222,0.2);
 }
 
 .info-section {
