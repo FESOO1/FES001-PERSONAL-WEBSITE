@@ -2,9 +2,14 @@
 
 /* POSITION NAVBAR */
 
-const themeChanger = document.querySelector('.theme-changer-link');
-const themeSvg = document.querySelector('.position-svg');
+const positionChanger = document.querySelector('.position-changer-link');
+const positionSvg = document.querySelector('.position-svg');
+const navbarContainer = document.querySelector('.navbar');
 
 function chanegPosition() {
-    themeSvg.classList.toggle('svgjs');
+    positionSvg.classList.toggle('svgjs');
+
+    navbarContainer.classList.toggle('navbarjs');
+
+    positionChanger.classList.toggle('positionjs')
 }

@@ -31,6 +31,7 @@ body {
 
 .navbar-container {
     width: 100%;
+    position: fixed;
     display: flex;
     justify-content: center;
 }
@@ -123,7 +124,7 @@ body {
     margin-top: 10px;
 }
 
-.navbar-change-link:hover::after {
+.position-changer-link:hover::after {
     content: 'Change the position of navbar';
     position: absolute;
     background: #353c4e;

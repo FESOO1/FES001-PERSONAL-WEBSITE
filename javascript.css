@@ -3,3 +3,27 @@
 .svgjs {
     transform: rotateZ(180deg);
 }
+
+.navbarjs {
+    top: 90.5%;
+}
+
+.positionjs:hover::after {
+    margin-top: -83px;
+}
+
+.navbarjs > .home-link:hover::after {
+    margin-top: -83px;
+}
+
+.navbarjs > .info-link:hover::after {
+    margin-top: -83px;
+}
+
+.navbarjs > .contact-link:hover::after {
+    margin-top: -83px;
+}
+
+.navbarjs > .theme-link:hover::after {
+    margin-top: -83px;
+}
