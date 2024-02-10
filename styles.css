@@ -67,6 +67,10 @@ body {
     padding: 3px;
 }
 
+.moon-theme {
+    display: none;
+}
+
 .home-link:hover > a,
 .info-link:hover > a,
 .contact-link:hover > a,
@@ -141,11 +145,3 @@ body {
     text-align: center;
     width: max-content;
 }
-
-/* Theme */
-
-.moon-theme {
-    display: none;
-}
-
-/* */
