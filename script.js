@@ -48,9 +48,9 @@ moonContainer.addEventListener('click', function() {
 
 /* SECTIONS */
 
-const homeSection = document.querySelector('.home-link')
-const infoSection = document.querySelector('.info-link')
-const contactSection = document.querySelector('.contact-link')
+const homeSection = document.querySelector('.home-section')
+const infoSection = document.querySelector('.info-section')
+const contactSection = document.querySelector('.contact-section')
 
 function homeSection() {
 
