@@ -175,6 +175,7 @@ body {
 .moon-theme > svg,
 .position-changer-link > svg {
     fill: #aaaaaa;
+    transition: 100ms linear;
 }
 
 .home-link:hover > a > svg,
