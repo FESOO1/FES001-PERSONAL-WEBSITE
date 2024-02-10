@@ -65,3 +65,29 @@ document.querySelector('.contact-link').addEventListener('click', function(){
 
     contactSection.style.right = '6%'
 })
+
+/* DIFFERENT */
+
+document.querySelector('.home-section').addEventListener('click', function(){
+    infoSection.style.left = '-85%';
+
+    homeSection.style.left = '6%';
+
+    contactSection.style.right = '-85%'
+})
+
+document.querySelector('.info-section').addEventListener('click', function(){
+    infoSection.style.left = '6%';
+
+    homeSection.style.left = '-85%';
+
+    contactSection.style.right = '-85%'
+})
+
+document.querySelector('.contact-section').addEventListener('click', function(){
+    infoSection.style.left = '-85%';
+
+    homeSection.style.left = '98%';
+
+    contactSection.style.right = '6%'
+})
