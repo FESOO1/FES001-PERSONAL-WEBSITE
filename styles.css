@@ -44,6 +44,7 @@ body {
 }
 
 .navbar {
+    z-index: 999;
     font-family: var(--navbar-fonts2);
     margin-top: 5px;
     /* top: 10px; */
@@ -222,12 +223,11 @@ body {
     height: 600px;
     /* background: rgb(45,51,67); */
     background: rgb(40, 17, 17);
-    z-index: 999;
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
     position: absolute;
     left: 6%;
-
+    z-index: 10;
 }
 
 .info-section {
@@ -237,9 +237,9 @@ body {
     width: 1300px;
     height: 600px;
     background: rgb(17, 19, 40);
-    z-index: 999;
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
+    z-index: 10;
 }
 
 .contact-section {
@@ -248,10 +248,10 @@ body {
     margin-top: 6px;
     width: 1300px;
     height: 600px;
-    background: rgb(17, 40, 17);
-    z-index: 999;
+    background: rgb(40, 17, 17);
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
+    z-index: 10;
 }
 
 
