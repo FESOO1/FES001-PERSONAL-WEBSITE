@@ -57,7 +57,8 @@ body {
 .home-link > a,
 .info-link > a,
 .contact-link > a,
-.theme-link > a,
+.theme-link > .sun-theme,
+.theme-link > .moon-theme,
 .position-changer-link > svg {
     border-radius: 0.2rem;
     display: flex;
@@ -69,7 +70,8 @@ body {
 .home-link:hover > a,
 .info-link:hover > a,
 .contact-link:hover > a,
-.theme-link:hover > a,
+.theme-link:hover > .sun-theme,
+.theme-link:hover > .moon-theme,
 .position-changer-link:hover > svg {
     background: var(--navbar-links-hover-color);
 }
@@ -77,7 +79,8 @@ body {
 .home-link:active > a,
 .info-link:active > a,
 .contact-link:active > a,
-.theme-link:active > a,
+.theme-link:active > .sun-theme,
+.theme-link:active > .moon-theme,
 .position-changer-link:active > svg  {
     background: var(--navbar-links-active-color);
 }
@@ -138,8 +141,8 @@ body {
     width: max-content;
 }
 
-/* NAVBAR POSITION */
+/* Theme */
 
-.navbar-change-link1 {
-    display: none;
+.moon-theme {
+    position: absolute;
 }

@@ -16,8 +16,8 @@ function chanegPosition() {
 
 /* THEME */
 
-const body = document.querySelector('body');
+/* const body = document.querySelector('body');
 
 function changeTheme(){
     body.classList.toggle('changethemejs');
-}
+} */
