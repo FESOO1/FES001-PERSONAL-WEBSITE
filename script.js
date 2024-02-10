@@ -2,7 +2,7 @@
 
 /* POSITION NAVBAR */
 
-let bottomSvg = document.querySelector('.navbar-change-link');
+/* let bottomSvg = document.querySelector('.navbar-change-link');
 let topSvg = document.querySelector('.navbar-change-link1');
 let navbarItself = document.querySelector('.navbar');
 
@@ -20,4 +20,11 @@ function topPosition() {
         bottomSvg.style.display = 'unset'
         return
     }
+} */
+
+const themeChanger = document.querySelector('.theme-changer-link');
+const themeSvg = document.querySelector('.position-svg');
+
+function chanegPosition() {
+    themeSvg.classList.toggle('svgjs');
 }

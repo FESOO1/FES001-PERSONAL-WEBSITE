@@ -58,8 +58,7 @@ body {
 .info-link > a,
 .contact-link > a,
 .theme-link > a,
-.navbar-change-link > svg,
-.navbar-change-link1 > svg {
+.position-changer-link > svg {
     border-radius: 0.2rem;
     display: flex;
     align-items: center;
@@ -71,8 +70,7 @@ body {
 .info-link:hover > a,
 .contact-link:hover > a,
 .theme-link:hover > a,
-.navbar-change-link:hover > svg,
-.navbar-change-link1:hover > svg {
+.position-changer-link:hover > svg {
     background: var(--navbar-links-hover-color);
 }
 
@@ -80,8 +78,7 @@ body {
 .info-link:active > a,
 .contact-link:active > a,
 .theme-link:active > a,
-.navbar-change-link:active > svg,
-.navbar-change-link1:active > svg  {
+.position-changer-link:active > svg  {
     background: var(--navbar-links-active-color);
 }
 
