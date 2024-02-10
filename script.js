@@ -91,3 +91,11 @@ document.querySelector('.contact-section').addEventListener('click', function(){
 
     contactSection.style.right = '6%'
 })
+
+/* SCROLL  hint */
+
+const insideHomesection = document.querySelector('.inside-home-section');
+
+document.querySelector('.home-scroll-hint').addEventListener('click', () =>{
+    insideHomesection.classList.toggle('homescrolljs');
+})

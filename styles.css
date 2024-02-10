@@ -279,11 +279,11 @@ body {
 }
 
 .inside-home-section::-webkit-scrollbar-thumb:hover {
-    background: #aaaaaa;
+    background: #ffffff;
 } 
 
 .inside-home-section::-webkit-scrollbar-thumb {
-    background: rgb(59, 59, 59);
+    background: rgb(110, 110, 110);
     border-radius: 1rem;
 }
 
@@ -310,8 +310,8 @@ body {
 
 .home-scroll-hint {
     position: absolute;
-    top: 5px;
-    right: 30px;
+    top: 10px;
+    right: 10px;
     background: #161621;
     border-radius: 50%;
     width: 35px;

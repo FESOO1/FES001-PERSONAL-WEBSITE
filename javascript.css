@@ -43,3 +43,11 @@
 .bodyjs {
     background: burlywood;
 }
+
+/* SECTIONS */
+
+/* HOME SCROLL */
+
+.homescrolljs::-webkit-scrollbar {
+    display: unset;
+}
