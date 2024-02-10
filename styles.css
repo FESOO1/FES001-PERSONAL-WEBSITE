@@ -211,35 +211,5 @@ body {
 
 /* HOME SECTION */
 
-.home-section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 
-.home-section-inner {
-    display: flex;
-    align-items: center;
-    margin-top: 180px;
-    padding: 0 30px;
-}
-
-.home-text > h1 {
-    font-weight: 200;
-    font-size: 5rem;
-    color: orange;
-    letter-spacing: 2px;
-    font-family: 'Nabla', system-ui;
-}
-
-.home-img > img {
-    transform: rotateY(-180deg);
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-}
-
-.software-engineer-text {
-    color: aqua;
-    font-family: var(--navbar-fonts);
-}
 
