@@ -28,9 +28,3 @@ function topPosition() {
 }
 
 /* THEME CHANGING */
-
-const bodyItself = document.querySelector('body');
-
-document.querySelector('.theme-link').addEventListener('click', () => {
-    bodyItself.classList.toggle('themejs');
-})
