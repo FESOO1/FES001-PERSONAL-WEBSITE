@@ -11,7 +11,9 @@
 }
 
 .positionjs:hover::after {
+    content: 'Up';
     margin-top: -83px;
+    margin-left: 10px;
 }
 
 .navbarjs > .home-link:hover::after {

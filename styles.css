@@ -130,14 +130,14 @@ body {
 }
 
 .position-changer-link:hover::after {
-    content: 'Change the position of navbar';
+    /* content: 'Change the position of navbar'; */
+    content: 'Down';
     position: absolute;
     background: #353c4e;
     color: white;
     padding: 3px 5px;
     border-radius: 0.1rem;
-    margin-top: 8px;
-    margin-left: -148px;
+    margin-top: 10px;
     text-align: center;
     width: max-content;
 }
