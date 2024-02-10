@@ -36,16 +36,6 @@ function moonTheme() {
     body.classList.toggle('bodyjs');
 }
 
-/* sunContainer.addEventListener('click', function() {
-    moonContainer.style.display = 'unset';
-    sunContainer.style.display = 'none'
-})
-
-moonContainer.addEventListener('click', function() {
-    moonContainer.style.display = 'none';
-    sunContainer.style.display = 'unset'
-}) */
-
 /* SECTIONS */
 
 const homeSection = document.querySelector('.home-section')
