@@ -224,6 +224,9 @@ body {
     z-index: 999;
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
+    position: absolute;
+    left: 6%;
+
 }
 
 .info-section {
