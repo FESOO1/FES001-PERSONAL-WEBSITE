@@ -18,16 +18,22 @@ function chanegPosition() {
 
 const sunContainer = document.querySelector('.sun-theme');
 const moonContainer = document.querySelector('.moon-theme');
+const body = document.querySelector('body');
 
 
 function sunTheme() {
     moonContainer.style.display = 'unset'
     sunContainer.style.display = 'none'
+
+    body.classList.toggle('bodyjs');
+
 }
 
 function moonTheme() {
     moonContainer.style.display = 'none'
     sunContainer.style.display = 'unset'
+
+    body.classList.toggle('bodyjs');
 }
 
 /* sunContainer.addEventListener('click', function() {
