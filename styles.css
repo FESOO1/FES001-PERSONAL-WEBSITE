@@ -272,6 +272,8 @@ body {
 
 .software-text {
     color: rgb(66, 161, 255);
+    font-family: var(--navbar-fonts);
+    text-transform: uppercase;
 }
 
 .inside-home-section > h1 {
