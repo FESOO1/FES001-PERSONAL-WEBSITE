@@ -308,5 +308,20 @@ body {
     margin-top: 30px;
 }
 
+.home-scroll-hint {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    background: #161621;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(81, 81, 81, 0.3);
+}
+
+
 
 
