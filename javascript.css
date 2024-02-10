@@ -26,7 +26,11 @@
     margin-top: -83px;
 }
 
-.navbarjs > .theme-link:hover::after {
+.navbarjs > .sun-theme:hover::after {
+    margin-top: -83px;
+}
+
+.navbarjs > .moon-theme:hover::after {
     margin-top: -83px;
 }
 

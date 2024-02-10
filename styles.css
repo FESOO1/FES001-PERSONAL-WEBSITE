@@ -118,7 +118,8 @@ body {
     margin-left: -4px;
 }
 
-.theme-link:hover::after {
+.sun-theme:hover::after,
+.moon-theme:hover::after {
     content: 'Theme';
     position: absolute;
     background: #353c4e;
@@ -146,3 +147,5 @@ body {
 .moon-theme {
     display: none;
 }
+
+/* */
