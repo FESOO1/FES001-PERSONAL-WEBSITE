@@ -266,8 +266,13 @@ body {
 
 .inside-home-section {
     width: 100%;
-    height: 80%;
-    padding: 0 8%;
+    height: 100%;
+    padding: 4.7% 8%;
+    overflow-y: scroll;
+}
+
+.inside-home-section::-webkit-scrollbar {
+    display: none;
 }
 
 .software-text {
