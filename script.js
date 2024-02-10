@@ -2,14 +2,22 @@
 
 /* POSITION NAVBAR */
 
-let bottomSvg = document.querySelector('.position-svg');
-let topSvg = document.querySelector('.position-svg1');
+let bottomSvg = document.querySelector('.navbar-change-link');
+let topSvg = document.querySelector('.navbar-change-link1');
 
 
 function bottomPosition() {
     bottomSvg.style.display = 'none'
     if(bottomSvg.style.display = 'none') {
         topSvg.style.display = 'unset'
+        return
+    }
+}
+
+function topPosition() {
+    topSvg.style.display = 'none'
+    if(topSvg.style.display = 'none') {
+        bottomSvg.style.display = 'unset'
         return
     }
 }
