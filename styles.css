@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
 
 :root {
@@ -16,6 +16,8 @@
 
     --navbar-fonts: 'Protest Revolution', sans-serif;
     --navbar-fonts2: 'Protest Strike', sans-serif;
+
+    --paragraphs-font: 'IBM Plex Sans', sans-serif;
 }
 
 html {
@@ -294,7 +296,7 @@ body {
 }
 
 .my-journey-text{
-    color: rgb(47, 151, 255);
+    color: rgb(255, 189, 47);
     font-family: var(--navbar-fonts2);
 }
 
@@ -308,6 +310,7 @@ body {
 }
 
 .inside-home-section > p {
+    font-family: var(--paragraphs-font);
     text-align: justify;
     font-size: 1.5rem;
     color: white;
