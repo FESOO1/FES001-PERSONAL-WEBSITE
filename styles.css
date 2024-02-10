@@ -323,7 +323,7 @@ body {
 }
 
 .home-scroll-hint:hover::after {
-    content: 'Scroll: visible';
+    content: 'Scroll: invisible';
     position: absolute;
     background: rgba(99, 99, 99, 0.3);
     width: max-content;
