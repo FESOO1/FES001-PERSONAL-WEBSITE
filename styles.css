@@ -213,6 +213,7 @@ body {
     margin-top: 65px;
     display: flex;
     justify-content: center;
+    position: fixed;
 }
 
 .home-section {
@@ -221,7 +222,19 @@ body {
     height: 600px;
     background: rgb(45,51,67);
     z-index: 999;
-    box-shadow: 0 0 4px black;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.492);
+    border-radius: 0.3rem;
+}
+
+.info-section {
+    right: -85%;
+    position: absolute;
+    margin-top: 6px;
+    width: 1300px;
+    height: 600px;
+    background: rgb(45,51,67);
+    z-index: 999;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
 }
 
