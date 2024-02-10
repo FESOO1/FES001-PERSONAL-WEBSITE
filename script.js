@@ -6,9 +6,9 @@ let bottomSvg = document.querySelector('.navbar-change-link');
 let topSvg = document.querySelector('.navbar-change-link1');
 let navbarItself = document.querySelector('.navbar');
 
-document.querySelector(".navbar-change-link").addEventListener('click', () => {
+/* document.querySelector(".navbar-change-link").addEventListener('click', () => {
     navbarItself.classList.toggle("navbarjs");
-});
+}); */
 
 
 function bottomPosition() {
@@ -26,3 +26,11 @@ function topPosition() {
         return
     }
 }
+
+/* THEME CHANGING */
+
+const bodyItself = document.querySelector('body');
+
+document.querySelector('.theme-link').addEventListener('click', () => {
+    bodyItself.classList.toggle('themejs');
+})
