@@ -2,9 +2,8 @@
 
 /* POSITION NAVBAR */
 
-const positionSvg = document.querySelector('.position-svg');
-const positionContainer = document.querySelector('.navbar-change-link');
+const svgSelect = document.querySelector('.position-svg');
 
-function bottomtopPosition() {
-    positionContainer.style.rotateZ = '45deg'
-}
+document.querySelector('.navbar-change-link').addEventListener('click', () =>{
+    svgSelect.classList.toggle('svgjs');
+})
