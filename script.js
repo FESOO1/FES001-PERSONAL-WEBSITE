@@ -6,9 +6,9 @@ let bottomSvg = document.querySelector('.navbar-change-link');
 let topSvg = document.querySelector('.navbar-change-link1');
 let navbarItself = document.querySelector('.navbar');
 
-document.querySelector('.navbar-change-link').addEventListener('click', function() {
-    navbarItself.style.backrgoundColor = 'red';
-})
+document.querySelector('.navbar-change-link').addEventListener('click', () => {
+    navbarItself.classList.toggle('navbarjs');
+});
 
 
 function bottomPosition() {
