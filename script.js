@@ -16,8 +16,21 @@ function chanegPosition() {
 
 /* THEME */
 
-/* const body = document.querySelector('body');
+const sunTheme = document.querySelector('.sun-theme');
+const moonTheme = document.querySelector('.moon-theme');
 
-function changeTheme(){
-    body.classList.toggle('changethemejs');
+function sunTheme() {
+    sunTheme.style.display = 'none';
+    if(sunTheme.style.display = 'none') {
+        moonTheme.style.display = 'unset'
+        return
+    }
+}
+
+/* function moonTheme() {
+    moonTheme.style.display = 'none';
+    if(moonTheme.style.display = 'none') {
+        sunTheme.style.display = 'unset'
+        return
+    }
 } */

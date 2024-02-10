@@ -57,8 +57,8 @@ body {
 .home-link > a,
 .info-link > a,
 .contact-link > a,
-.theme-link > .sun-theme,
-.theme-link > .moon-theme,
+.sun-theme > svg,
+.moon-theme > svg,
 .position-changer-link > svg {
     border-radius: 0.2rem;
     display: flex;
@@ -70,8 +70,8 @@ body {
 .home-link:hover > a,
 .info-link:hover > a,
 .contact-link:hover > a,
-.theme-link:hover > .sun-theme,
-.theme-link:hover > .moon-theme,
+.sun-theme:hover > svg,
+.moon-theme:hover > svg,
 .position-changer-link:hover > svg {
     background: var(--navbar-links-hover-color);
 }
@@ -79,8 +79,8 @@ body {
 .home-link:active > a,
 .info-link:active > a,
 .contact-link:active > a,
-.theme-link:active > .sun-theme,
-.theme-link:active > .moon-theme,
+.sun-theme:active > svg,
+.moon-theme:active > svg,
 .position-changer-link:active > svg  {
     background: var(--navbar-links-active-color);
 }
@@ -143,6 +143,6 @@ body {
 
 /* Theme */
 
-.theme-link > .moon-theme {
+.moon-theme {
     display: none;
 }
