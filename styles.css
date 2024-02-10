@@ -221,12 +221,12 @@ body {
     display: flex;
     align-items: center;
     margin-top: 180px;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .home-text > h1 {
     font-weight: 200;
-    font-size: 5rem;
+    font-size: max(1rem, 5rem);
     color: orange;
     letter-spacing: 2px;
     font-family: 'Nabla', system-ui;
