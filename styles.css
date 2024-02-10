@@ -61,6 +61,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* border: 1px solid #535a7785; */
+    /* border-bottom: 1px solid orange; */
+    /* border-left: 1px solid rgba(255, 166, 0, 0.508);
+    border-right: 1px solid rgba(255, 166, 0, 0.551); */
 }
 
 .navbar > hr {
@@ -190,4 +194,14 @@ body {
 .moon-theme:hover > svg,
 .position-changer-link:hover > svg {
     fill: white;
+}
+
+.home-link:hover,
+.info-link:hover,
+.contact-link:hover,
+.sun-theme:hover > svg,
+.moon-theme:hover > svg,
+.position-changer-link:hover > svg {
+    border-bottom: 1px solid orange;
+    border-radius: 0.2rem;
 }
