@@ -238,7 +238,7 @@ body {
     margin-top: 6px;
     width: 1300px;
     height: 600px;
-    background: rgb(17, 19, 40);
+    background: #9CADCE;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
     z-index: 10;
@@ -252,11 +252,11 @@ body {
     margin-top: 6px;
     width: 1300px;
     height: 600px;
-    background: #A77E58;
+    background: #af7e50;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
     z-index: 10;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 
