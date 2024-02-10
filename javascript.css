@@ -13,28 +13,29 @@
 
 .positionjs:hover::after {
     content: 'Up';
-    margin-top: -83px;
+    font-size: 1.1rem;
+    margin-top: -86px;
     margin-left: 10px;
 }
 
 .navbarjs > .home-link:hover::after {
-    margin-top: -83px;
+    margin-top: -86px;
 }
 
 .navbarjs > .info-link:hover::after {
-    margin-top: -83px;
+    margin-top: -86px;
 }
 
 .navbarjs > .contact-link:hover::after {
-    margin-top: -83px;
+    margin-top: -86px;
 }
 
 .navbarjs > .sun-theme:hover::after {
-    margin-top: -83px;
+    margin-top: -86px;
 }
 
 .navbarjs > .moon-theme:hover::after {
-    margin-top: -83px;
+    margin-top: -86px;
 }
 
 /* THEME */
