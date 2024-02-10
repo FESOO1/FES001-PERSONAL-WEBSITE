@@ -143,6 +143,6 @@ body {
 
 /* Theme */
 
-.moon-theme {
-    position: absolute;
+.theme-link > .moon-theme {
+    display: none;
 }
