@@ -167,3 +167,21 @@ body {
     width: max-content;
     font-size: 1.1rem;
 }
+
+.home-link > a > svg,
+.info-link > a > svg,
+.contact-link > a > svg,
+.sun-theme > svg,
+.moon-theme > svg,
+.position-changer-link > svg {
+    fill: #bbbbbb;
+}
+
+.home-link:hover > a > svg,
+.info-link:hover > a > svg,
+.contact-link:hover > a > svg,
+.sun-theme:hover > svg,
+.moon-theme:hover > svg,
+.position-changer-link:hover > svg {
+    fill: white;
+}
