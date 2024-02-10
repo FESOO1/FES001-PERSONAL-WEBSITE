@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 
 
 
@@ -15,6 +15,7 @@
     --navbar-links-active-color: #434d63;
 
     --navbar-fonts: 'Protest Revolution', sans-serif;
+    --navbar-fonts2: 'Protest Strike', sans-serif;
 }
 
 * {
@@ -44,7 +45,7 @@ body {
 }
 
 .navbar {
-    font-family: var(--navbar-fonts);
+    font-family: var(--navbar-fonts2);
     margin-top: 5px;
     /* top: 10px; */
     position: fixed;
@@ -114,10 +115,12 @@ body {
     border-radius: 0.1rem;
     margin-top: 10px;
     font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin-left: -2px;
 }
 
 .info-link:hover::after {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     content: 'Info';
     position: absolute;
     background: #353c4e;
@@ -125,7 +128,7 @@ body {
     padding: 3px 5px;
     border-radius: 0.1rem;
     margin-top: 10px;
-    margin-left: 2px;
+    margin-left: 4px;
     font-size: 1.1rem;
 }
 
@@ -137,8 +140,9 @@ body {
     padding: 3px 5px;
     border-radius: 0.1rem;
     margin-top: 10px;
-    margin-left: -7px;
+    margin-left: -12px;
     font-size: 1.1rem;
+    letter-spacing: 1px;
 }
 
 .sun-theme:hover::after,
@@ -151,7 +155,8 @@ body {
     border-radius: 0.1rem;
     margin-top: 10px;
     font-size: 1.1rem;
-    margin-left: -3.5px;
+    margin-left: -6px;
+    letter-spacing: 1px;
 }
 
 .position-changer-link:hover::after {
