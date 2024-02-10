@@ -110,7 +110,7 @@ body {
     content: 'Home';
     position: absolute;
     background: #353c4e;
-    color: white;
+    color: orange;
     padding: 3px 5px;
     border-radius: 0.1rem;
     margin-top: 10px;
@@ -124,7 +124,7 @@ body {
     content: 'Info';
     position: absolute;
     background: #353c4e;
-    color: white;
+    color: orange;
     padding: 3px 5px;
     border-radius: 0.1rem;
     margin-top: 10px;
@@ -136,7 +136,7 @@ body {
     content: 'Contact';
     position: absolute;
     background: #353c4e;
-    color: white;
+    color: orange;
     padding: 3px 5px;
     border-radius: 0.1rem;
     margin-top: 10px;
@@ -150,7 +150,7 @@ body {
     content: 'Theme';
     position: absolute;
     background: #353c4e;
-    color: white;
+    color: orange;
     padding: 3px 5px;
     border-radius: 0.1rem;
     margin-top: 10px;
@@ -164,7 +164,7 @@ body {
     content: 'Down';
     position: absolute;
     background: #353c4e;
-    color: white;
+    color: orange;
     padding: 3px 5px;
     border-radius: 0.1rem;
     margin-top: 10px;
