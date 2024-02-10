@@ -39,11 +39,6 @@ body {
     height: 100%;
 }
 
-.info-section {
-    width: 100%;
-    height: 300vh;
-}
-
 /* NAVBAR */
 
 .navbar-container {
@@ -212,4 +207,35 @@ body {
 .position-changer-link:hover > svg {
     border-bottom: 1px solid orange;
     border-radius: 0.2rem;
+}
+
+/* HOME SECTION */
+
+.home-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-section-inner {
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+    row-gap: 150px;
+}
+
+.home-text > h1 {
+    font-size: 5rem;
+    color: white;
+}
+
+.home-img > img {
+    transform: rotateY(-180deg);
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.software-engineer-text {
+    color: aqua;
 }
