@@ -227,12 +227,12 @@ body {
     position: absolute;
     left: 6%;
     z-index: 10;
-    transition: 200ms linear;
+    transition: 300ms linear;
     border: 1px solid rgba(222,222,222,0.2);
 }
 
 .info-section {
-    transition: 200ms linear;
+    transition: 300ms linear;
     left: -85%;
     position: absolute;
     margin-top: 6px;
@@ -245,7 +245,7 @@ body {
 }
 
 .contact-section {
-    transition: 200ms linear;
+    transition: 300ms linear;
     right: -85%;
     position: absolute;
     margin-top: 6px;
