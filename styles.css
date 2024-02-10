@@ -334,6 +334,12 @@ body {
     color: white;
 }
 
+/* MEDIA QUEIRIES */
+
+@media (max-width: 1466px) {
+    
+}
+
 
 
 
