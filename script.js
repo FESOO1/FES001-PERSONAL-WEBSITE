@@ -52,7 +52,10 @@ const homeSection = document.querySelector('.home-section')
 const infoSection = document.querySelector('.info-section')
 const contactSection = document.querySelector('.contact-section')
 
-function homeSection() {
+document.querySelector('.info-link').addEventListener('click', function(){
+    infoSection.style.left = '6%';
 
-}
+    homeSection.style.left = '-85%';
 
+    contactSection.style.right = '-85%'
+})
