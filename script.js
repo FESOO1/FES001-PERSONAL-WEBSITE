@@ -6,5 +6,5 @@ const positionSvg = document.querySelector('.position-svg');
 const positionContainer = document.querySelector('.navbar-change-link');
 
 function bottomtopPosition() {
-    positionContainer.classList.toggle('svgdirectionjs');
+    positionContainer.style.rotateZ = '45deg'
 }
