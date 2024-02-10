@@ -19,7 +19,18 @@ function chanegPosition() {
 const sunContainer = document.querySelector('.sun-theme');
 const moonContainer = document.querySelector('.moon-theme');
 
-sunContainer.addEventListener('click', function() {
+
+function sunTheme() {
+    moonContainer.style.display = 'unset'
+    sunContainer.style.display = 'none'
+}
+
+function moonTheme() {
+    moonContainer.style.display = 'none'
+    sunContainer.style.display = 'unset'
+}
+
+/* sunContainer.addEventListener('click', function() {
     moonContainer.style.display = 'unset';
     sunContainer.style.display = 'none'
 })
@@ -27,4 +38,5 @@ sunContainer.addEventListener('click', function() {
 moonContainer.addEventListener('click', function() {
     moonContainer.style.display = 'none';
     sunContainer.style.display = 'unset'
-})
+}) */
+
