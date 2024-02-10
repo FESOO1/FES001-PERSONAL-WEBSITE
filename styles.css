@@ -220,7 +220,8 @@ body {
     margin-top: 6px;
     width: 1300px;
     height: 600px;
-    background: rgb(45,51,67);
+    /* background: rgb(45,51,67); */
+    background: rgb(40, 17, 17);
     z-index: 999;
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
@@ -235,7 +236,7 @@ body {
     margin-top: 6px;
     width: 1300px;
     height: 600px;
-    background: rgb(45,51,67);
+    background: rgb(17, 19, 40);
     z-index: 999;
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
@@ -247,7 +248,7 @@ body {
     margin-top: 6px;
     width: 1300px;
     height: 600px;
-    background: rgb(45,51,67);
+    background: rgb(17, 40, 17);
     z-index: 999;
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
