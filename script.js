@@ -95,7 +95,10 @@ document.querySelector('.contact-section').addEventListener('click', function(){
 /* SCROLL  hint */
 
 const insideHomesection = document.querySelector('.inside-home-section');
+const scrollHome = document.querySelector('.home-scroll-hint');
 
 document.querySelector('.home-scroll-hint').addEventListener('click', () =>{
     insideHomesection.classList.toggle('homescrolljs');
+
+    scrollHome.classList.toggle('scrollhomevisible');
 })

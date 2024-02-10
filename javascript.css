@@ -51,3 +51,7 @@
 .homescrolljs::-webkit-scrollbar {
     display: unset;
 }
+
+.scrollhomevisible:hover::after {
+    content: 'Scroll: visible';
+}
