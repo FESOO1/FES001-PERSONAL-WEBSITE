@@ -3,7 +3,8 @@
 /* POSITION NAVBAR */
 
 const positionSvg = document.querySelector('.position-svg');
+const positionContainer = document.querySelector('.navbar-change-link');
 
 function bottomtopPosition() {
-    positionSvg.classList.toggle('svgdirectionjs');
+    positionContainer.classList.toggle('svgdirectionjs');
 }
