@@ -18,6 +18,10 @@
     --navbar-fonts2: 'Protest Strike', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -33,6 +37,11 @@ body {
 .container {
     width: 100%;
     height: 100%;
+}
+
+.info-section {
+    width: 100%;
+    height: 300vh;
 }
 
 /* NAVBAR */
