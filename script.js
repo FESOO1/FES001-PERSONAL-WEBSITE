@@ -6,7 +6,7 @@ const topBtn = document.querySelector('.navbar-change-top-link');
 const bottomBtn = document.querySelector('.navbar-change-bottom-link');
 const navMenu = document.querySelector('.navbar');
 
-function bottomPosition() {
+/* function bottomPosition() {
     bottomBtn.style.display = 'none';
 
     if(bottomBtn.style.display == 'none') {
@@ -32,4 +32,4 @@ function topPosition() {
     
 
     navMenu.style.top = '5px';
-}
+} */
