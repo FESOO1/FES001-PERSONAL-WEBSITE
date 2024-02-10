@@ -46,3 +46,13 @@ moonContainer.addEventListener('click', function() {
     sunContainer.style.display = 'unset'
 }) */
 
+/* SECTIONS */
+
+const homeSection = document.querySelector('.home-link')
+const infoSection = document.querySelector('.info-link')
+const contactSection = document.querySelector('.contact-link')
+
+function homeSection() {
+
+}
+
