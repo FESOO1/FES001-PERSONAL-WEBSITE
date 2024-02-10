@@ -1,5 +1,7 @@
 /* NAVBAR */
 
+/* POSITION */
+
 .svgjs {
     transform: rotateZ(180deg);
 }
@@ -26,4 +28,10 @@
 
 .navbarjs > .theme-link:hover::after {
     margin-top: -83px;
+}
+
+/* THEME */
+
+.changethemejs {
+    background: rgb(150,150,150);
 }

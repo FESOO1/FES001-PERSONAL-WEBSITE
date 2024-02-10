@@ -13,3 +13,11 @@ function chanegPosition() {
 
     positionChanger.classList.toggle('positionjs')
 }
+
+/* THEME */
+
+const body = document.querySelector('body');
+
+function changeTheme(){
+    body.classList.toggle('changethemejs');
+}
