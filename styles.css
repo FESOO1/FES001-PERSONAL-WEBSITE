@@ -272,7 +272,19 @@ body {
 }
 
 .inside-home-section::-webkit-scrollbar {
+    background: #2f3147;
+    width: 6px;
+    border-radius: 5rem;
     display: none;
+}
+
+.inside-home-section::-webkit-scrollbar-thumb:hover {
+    background: #aaaaaa;
+} 
+
+.inside-home-section::-webkit-scrollbar-thumb {
+    background: rgb(59, 59, 59);
+    border-radius: 1rem;
 }
 
 .software-text {
