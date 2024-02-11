@@ -354,12 +354,15 @@ body {
 }
 
 .home-ul {
-    width: ;
     padding-left: 90px;
     padding-right: 40px;
-    padding-top: 25px;
+    margin-top: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0.4rem;
     color: white;
     font-size: 1rem;
+    background: rgba(2, 58, 114, 0.423);
 }
 
 /* MEDIA QUEIRIES */
