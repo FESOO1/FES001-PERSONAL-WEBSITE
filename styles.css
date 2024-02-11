@@ -405,7 +405,6 @@ body {
 .info-projects {
     display: flex;
     justify-content: space-evenly;
-    background: red;
 }
 
 .info-figure > iframe {
@@ -416,7 +415,7 @@ body {
 }
 
 .info-figure > figcaption {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: white;
     text-align: center;
 }
