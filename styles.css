@@ -411,7 +411,7 @@ body {
 }
 
 .info-figure > iframe {
-    border: 2px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.3);
     width: 350px;
     height: 480px;
     border-radius: 0.2rem;
@@ -424,6 +424,21 @@ body {
     color: white;
     text-align: center;
     font-family: var(--paragraphs-font);
+}
+
+.inside-info-section::-webkit-scrollbar {
+    background: #2f3147;
+    width: 6px;
+    border-radius: 5rem;
+}
+
+.inside-info-section::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+.inside-info-section::-webkit-scrollbar-thumb {
+    background: rgb(110, 110, 110);
+    border-radius: 1rem;
 }
 
 /* MEDIA QUEIRIES */
