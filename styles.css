@@ -373,7 +373,7 @@ body {
     content: '⚽️';
 }
 
-.home-ul > code > li:nth-of-type(32)::marker {
+.home-ul > code > li:nth-of-type(3)::marker {
     content: '📺';
 }
 
