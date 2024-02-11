@@ -365,6 +365,22 @@ body {
     background: rgba(2, 58, 114, 0.423);
 }
 
+.home-ul > code > li:first-of-type::marker {
+    content: '🏓';
+}
+
+.home-ul > code > li:nth-of-type(2)::marker {
+    content: '⚽️';
+}
+
+.home-ul > code > li:nth-of-type(32)::marker {
+    content: '📺';
+}
+
+.home-ul > code > li:nth-of-type(4)::marker {
+    content: '🧠';
+}
+
 /* MEDIA QUEIRIES */
 
 @media (max-width: 1466px) {
