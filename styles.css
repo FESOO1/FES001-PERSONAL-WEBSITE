@@ -366,7 +366,7 @@ body {
 }
 
 .home-ul > code > li {
-    padding: 0 5px;
+    padding: 1px 5px;
 }
 
 .home-ul > code > li:first-of-type::marker {
