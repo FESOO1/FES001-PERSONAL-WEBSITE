@@ -408,11 +408,12 @@ body {
 }
 
 .info-figure > iframe {
-    width: 300px;
+    width: 350px;
     height: 480px;
     border: 0;
     border-radius: 0.2rem;
 }
+
 
 .info-figure > figcaption {
     font-size: 1.4rem;
