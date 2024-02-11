@@ -353,6 +353,15 @@ body {
     color: white;
 }
 
+.home-ul {
+    width: ;
+    padding-left: 90px;
+    padding-right: 40px;
+    padding-top: 25px;
+    color: white;
+    font-size: 1rem;
+}
+
 /* MEDIA QUEIRIES */
 
 @media (max-width: 1466px) {
