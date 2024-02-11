@@ -394,12 +394,12 @@ body {
 
 .inside-info-section h1 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 2.5rem;
     font-family: var(--navbar-fonts2);
     color: white;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .info-projects {
