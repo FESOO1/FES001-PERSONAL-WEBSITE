@@ -456,6 +456,24 @@ body {
 .inside-contact-section-1,
 .inside-contact-section-2 {
     width: 50%;
+    height: 100%;
+}
+
+.inside-contact-section-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: red;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
 }
 
 /* MEDIA QUEIRIES */
