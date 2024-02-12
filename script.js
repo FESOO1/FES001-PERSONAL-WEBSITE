@@ -102,3 +102,5 @@ document.querySelector('.home-scroll-hint').addEventListener('click', () =>{
 
     scrollHome.classList.toggle('scrollhomevisible');
 })
+
+/* ONLINE CHAT with me */
