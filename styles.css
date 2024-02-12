@@ -477,19 +477,46 @@ body {
 
 .contact-right-chat-itself {
     width: 100%;
-    background: red;
     height: 450px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
 }
 
 .chat-itself {
     width: 100%;
     height: 400px;
-    background: blue;
+    background: #3d465a;
+    border-radius: 0.2rem;
+}
+
+.contact-online-chat{
 }
 
 #online-chat {
-    width: 80%;
+    height: 35px;
+    width: 84%;
+    border: 0;
+    padding-left: 7px;
+    color: white;
+    outline: none;
+    border-radius: 0.1rem;
+    background: #3d465a;
+}
+
+#online-chat::-webkit-input-placeholder {
+    color: white;
+}
+
+#online-chat-send-button {
+    width: 15%;
+    border: 0;
+    height: 35px;
+    margin-left: 2px;
+    border-radius: 0.1rem;
+    background: #5e6c8b;
+    color: white;
 }
 
 /* MEDIA QUEIRIES */
