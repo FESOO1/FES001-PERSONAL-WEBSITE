@@ -497,8 +497,12 @@ body {
     flex-direction: column;
 }
 
-.contact-online-chat{
+.chat-itself > p {
+    
 }
+
+/* .contact-online-chat{
+} */
 
 #online-chat {
     height: 35px;

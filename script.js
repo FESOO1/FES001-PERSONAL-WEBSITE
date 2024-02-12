@@ -104,7 +104,21 @@ document.querySelector('.home-scroll-hint').addEventListener('click', () =>{
 })
 
 /* ONLINE CHAT with me */
+const inputMessage = document.querySelector('#online-chat');
+const outputMessage = document.querySelector('.chat-itself');
 
-function alertonSubmit() {
-    alert('Hi, I have received your message, I will reach back to you as soon as I have time.')
+
+function sendaMessage() {
+    const value = inputMessage.value.trim()
+    if(value.length === 0) {
+        inputMessage.value = ""
+        return
+    }
+
+    outputMessage.innerHTML += `<p>${value}</p>`
+    inputMessage.value = '' 
 }
+
+/* function alertonSubmit() {
+    alert('Hi, I have received your message, I will reach back to you as soon as I have time.')
+} */
