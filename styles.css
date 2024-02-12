@@ -263,6 +263,8 @@ body {
     border-radius: 0.3rem;
     z-index: 10;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
 }
 
 .home-section {
@@ -441,6 +443,19 @@ body {
 .inside-info-section::-webkit-scrollbar-thumb {
     background: rgb(110, 110, 110);
     border-radius: 1rem;
+
+}
+
+.contact-section hr {
+    height: 95%;
+    border: 0;
+    border-left: 1px solid rgb(29, 132, 170);
+    border-radius: 0.5rem;
+}
+
+.inside-contact-section-1,
+.inside-contact-section-2 {
+    width: 50%;
 }
 
 /* MEDIA QUEIRIES */
