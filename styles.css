@@ -475,6 +475,23 @@ body {
     text-align: center;
 }
 
+.contact-right-chat-itself {
+    width: 100%;
+    background: red;
+    height: 450px;
+    padding: 10px;
+}
+
+.chat-itself {
+    width: 100%;
+    height: 400px;
+    background: blue;
+}
+
+#online-chat {
+    width: 80%;
+}
+
 /* MEDIA QUEIRIES */
 
 @media (max-width: 1466px) {
