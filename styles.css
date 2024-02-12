@@ -551,6 +551,11 @@ body {
     border-radius: 0.1rem;
     background: #5e6c8b;
     color: white;
+    transition: 100ms;
+}
+
+#online-chat-send-button:hover {
+    background: #6c7c9f;
 }
 
 /* MEDIA QUEIRIES */
