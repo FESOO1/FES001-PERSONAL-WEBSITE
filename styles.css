@@ -421,6 +421,7 @@ body {
 
 
 .info-figure > figcaption {
+    filter: drop-shadow(0 3px 1px black);
     font-size: 1.4rem;
     color: white;
     text-align: center;
