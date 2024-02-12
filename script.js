@@ -119,6 +119,6 @@ function sendaMessage() {
     inputMessage.value = '' 
 }
 
-/* function alertonSubmit() {
-    alert('Hi, I have received your message, I will reach back to you as soon as I have time.')
-} */
+function alertonSubmit() {
+    alert('Hi, thank you for contacting me. I have received your message, I will reach back to you as soon as I have time.')
+}
