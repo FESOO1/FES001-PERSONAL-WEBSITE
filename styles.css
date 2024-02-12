@@ -540,6 +540,10 @@ body {
 }
 
 #online-chat::-webkit-input-placeholder {
+    color: #ababab;
+}
+
+#online-chat:focus::-webkit-input-placeholder {
     color: white;
 }
 
