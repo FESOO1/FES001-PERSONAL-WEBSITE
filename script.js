@@ -104,3 +104,7 @@ document.querySelector('.home-scroll-hint').addEventListener('click', () =>{
 })
 
 /* ONLINE CHAT with me */
+
+function alertonSubmit() {
+    alert('Hi, I have received your message, I will reach back to you as soon as I have time.')
+}
