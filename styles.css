@@ -489,6 +489,12 @@ body {
     height: 400px;
     background: #3d465a;
     border-radius: 0.2rem;
+    display: flex;
+    color: white;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: end;
+    flex-direction: column;
 }
 
 .contact-online-chat{
