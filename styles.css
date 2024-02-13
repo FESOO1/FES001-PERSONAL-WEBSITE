@@ -464,7 +464,7 @@ body {
     font-size: 2rem;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .ways-to-contact {
@@ -494,6 +494,8 @@ body {
 .phone:hover,
 .email:hover,
 .github:hover {
+    box-shadow: 0 1px 1px black;
+    border-top: 1px solid rgba(255, 255, 255, 0.553);
     border-radius: 0.2rem;
     background: rgba(65, 65, 65, 0.3);
 }
