@@ -551,17 +551,25 @@ body {
 .all-other-links {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     background: rgb(48, 45, 62);
-    padding: 3px;
-    align-items: center;
+    padding: 10px;
     row-gap: 5px;
-    justify-content: center;
     width: 78%;
-    height: 130px;
+    height: 150px;
     border-radius: 0.1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 1px 1px black;
+}
+
+.all-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    column-gap: 5px;
+    width: 100%;
+    height: 110px;
+    padding-left: 17px;
 }
 
 .all-other-links > span {
@@ -570,17 +578,17 @@ body {
     font-family: "Tomorrow", sans-serif;
 }
 
-.all-other-links > a {
+.all-links > a {
     font-size: 0.9rem;
     text-decoration: none;
     color: white;
     font-family: "Tomorrow", sans-serif;
 }
 
-.all-other-links > a:hover {
+.all-links > a:hover {
     color: rgb(0, 187, 255);
     text-decoration: underline;
-    text-decoration-thickness: 1.5px;
+    text-decoration-thickness: 1.1px;
 }
 
 /* 2 */
