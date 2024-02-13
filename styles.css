@@ -473,19 +473,26 @@ body {
     justify-content: space-evenly;
 }
 
-.telegram,
-.phone,
-.email,
-.github {
-    padding: 5px;
-    border-radius: 0.2rem;
+.telegram > a,
+.phone > a,
+.email > a,
+.github > a {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .telegram:hover,
 .phone:hover,
 .email:hover,
 .github:hover {
-    background: rgba(99, 99, 99, 0.3);
+    border-radius: 0.2rem;
+    background: rgba(65, 65, 65, 0.3);
+}
+
+.telegram:hover .telegram-svg {
+    fill: rgb(45, 150, 255);
 }
 
 /* 2 */
