@@ -459,11 +459,16 @@ body {
     height: 100%;
 }
 
+.inside-contact-section-1 {
+    display: flex;
+    flex-direction: column;
+}
+
 .inside-contact-section-1 > h1 {
     color: white;
     font-size: 2rem;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
@@ -477,7 +482,7 @@ body {
 .phone,
 .email,
 .github {
-    transition: 100ms linear;
+    transition: 200ms linear;
 }
 
 .telegram > a,
@@ -515,6 +520,14 @@ body {
 
 .phone:hover .phone-svg {
     fill: rgb(94, 254, 99);
+}
+
+.email:hover .email-svg {
+    fill: rgb(246, 214, 100);
+}
+
+.github:hover .github-svg {
+    fill: rgb(148, 0, 253);
 }
 
 /* 2 */
