@@ -473,6 +473,13 @@ body {
     justify-content: space-evenly;
 }
 
+.telegram,
+.phone,
+.email,
+.github {
+    transition: 100ms linear;
+}
+
 .telegram > a,
 .phone > a,
 .email > a,
@@ -492,7 +499,11 @@ body {
 }
 
 .telegram:hover .telegram-svg {
-    fill: rgb(45, 150, 255);
+    fill: rgb(94, 174, 254);
+}
+
+.phone:hover .phone-svg {
+    fill: rgb(94, 254, 99);
 }
 
 /* 2 */
