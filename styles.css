@@ -717,6 +717,10 @@ body {
     justify-content: center;
 }
 
+.footer-container > p {
+    font-family: "Tomorrow", sans-serif;
+}
+
 .footer-container > p > a {
     color: white;
     text-decoration-thickness: 1px;
