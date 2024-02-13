@@ -467,6 +467,8 @@ body {
 .inside-contact-section-1 > hr {
     width: 78%;
     margin-top: 9px;
+    border: 0;
+    border-top: 1px solid rgba(99, 99, 99, 0.579);
 }
 
 .inside-contact-section-1 > h1 {
