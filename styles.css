@@ -490,12 +490,21 @@ body {
     justify-content: center;
 }
 
-.telegram:hover,
-.phone:hover,
-.email:hover,
-.github:hover {
+.telegram > a:active,
+.phone > a:active,
+.email > a:active,
+.github > a:active {
+    background: rgba(95, 95, 95, 0.3);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 0.2rem;
+}
+
+.telegram/* :hover */,
+.phone/* :hover */,
+.email/* :hover */,
+.github/* :hover */ {
     box-shadow: 0 1px 1px black;
-    border-top: 1px solid rgba(255, 255, 255, 0.553);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 0.2rem;
     background: rgba(65, 65, 65, 0.3);
 }
