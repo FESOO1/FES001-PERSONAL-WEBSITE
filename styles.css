@@ -459,9 +459,36 @@ body {
     height: 100%;
 }
 
-.ways-to-contact {
-    background: red;
+.inside-contact-section-1 > h1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+.ways-to-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.telegram,
+.phone,
+.email,
+.github {
+    padding: 5px;
+    border-radius: 0.2rem;
+}
+
+.telegram:hover,
+.phone:hover,
+.email:hover,
+.github:hover {
+    background: rgba(99, 99, 99, 0.3);
+}
+
+/* 2 */
 
 .inside-contact-section-2 {
     display: flex;
