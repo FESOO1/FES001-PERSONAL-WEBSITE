@@ -538,6 +538,31 @@ body {
     fill: rgb(148, 0, 253);
 }
 
+.more-left-links {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.all-other-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgb(48, 45, 62);
+    padding: 3px;
+    align-items: center;
+    row-gap: 5px;
+    justify-content: center;
+    width: 78%;
+    height: 130px;
+}
+
+.all-other-links > a {
+    text-decoration: none;
+    color: white    ;
+}
+
 /* 2 */
 
 .inside-contact-section-2 {
