@@ -446,7 +446,7 @@ body {
 
 }
 
-.contact-section hr {
+.contact-section .middle-hr {
     height: 95%;
     border: 0;
     border-left: 1px solid rgb(29, 132, 170);
@@ -462,6 +462,11 @@ body {
 .inside-contact-section-1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.inside-contact-section-1 > hr {
+    width: 78%;
+    margin-top: 9px;
 }
 
 .inside-contact-section-1 > h1 {
@@ -473,6 +478,7 @@ body {
 }
 
 .ways-to-contact {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
