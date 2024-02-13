@@ -556,11 +556,20 @@ body {
     justify-content: center;
     width: 78%;
     height: 130px;
+    border-radius: 0.1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 1px 1px black;
 }
 
 .all-other-links > a {
     text-decoration: none;
-    color: white    ;
+    color: white;
+}
+
+.all-other-links > a:hover {
+    color: rgb(0, 187, 255);
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
 }
 
 /* 2 */
