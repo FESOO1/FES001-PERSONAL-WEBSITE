@@ -43,77 +43,33 @@ const infoSection = document.querySelector('.info-section')
 const contactSection = document.querySelector('.contact-section')
 
 document.querySelector('.home-link').addEventListener('click', function(){
-    /* infoSection.style.left = '-85%';
-
-    homeSection.style.left = '6%';
-
-    contactSection.style.right = '-85%' */
-
     homeSection.style.display = 'flex';
     infoSection.style.display = 'none';
     contactSection.style.display = 'none';
 })
 
 document.querySelector('.info-link').addEventListener('click', function(){
-    /* infoSection.style.left = '6%';
-
-    homeSection.style.left = '-85%';
-
-    contactSection.style.right = '-85%' */
-
     homeSection.style.display = 'none';
     infoSection.style.display = 'flex';
     contactSection.style.display = 'none';
 })
 
 document.querySelector('.contact-link').addEventListener('click', function(){
-    /* infoSection.style.left = '-85%';
-
-    homeSection.style.left = '98%';
-
-    contactSection.style.right = '6%' */
-
     homeSection.style.display = 'none';
     infoSection.style.display = 'none';
     contactSection.style.display = 'flex';
 })
 
-/* DIFFERENT */
-
-/* document.querySelector('.home-section').addEventListener('click', function(){
-    infoSection.style.left = '-85%';
-
-    homeSection.style.left = '6%';
-
-    contactSection.style.right = '-85%'
-})
-
-document.querySelector('.info-section').addEventListener('click', function(){
-    infoSection.style.left = '6%';
-
-    homeSection.style.left = '-85%';
-
-    contactSection.style.right = '-85%'
-})
-
-document.querySelector('.contact-section').addEventListener('click', function(){
-    infoSection.style.left = '-85%';
-
-    homeSection.style.left = '98%';
-
-    contactSection.style.right = '6%'
-}) */
-
 /* SCROLL  hint */
 
-const insideHomesection = document.querySelector('.inside-home-section');
+/* const insideHomesection = document.querySelector('.inside-home-section');
 const scrollHome = document.querySelector('.home-scroll-hint');
 
 document.querySelector('.home-scroll-hint').addEventListener('click', () =>{
     insideHomesection.classList.toggle('homescrolljs');
 
     scrollHome.classList.toggle('scrollhomevisible');
-})
+}) */
 
 /* ONLINE CHAT with me */
 const inputMessage = document.querySelector('#online-chat');
