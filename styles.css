@@ -868,6 +868,20 @@ body {
     .home-section {
         width: 350px;
     }
+    .inside-home-section > h1 {
+        font-size: 1.9rem;
+    }
+    .software-text {
+        font-size: 1rem;
+    }
+    .minus {
+        font-size: 1rem;
+    }
+    .inside-home-section > p  {
+        font-size: 0.9rem;
+    }
+
+
     .info-section {
         width: 350px;
     }
