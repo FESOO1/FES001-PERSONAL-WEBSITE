@@ -854,6 +854,9 @@ body {
     .home-ul > code > li {
         font-size: 0.8rem;
     }
+    .inside-home-section {
+        padding: 4.7% 6%;
+    }
 
 
     .info-section {
@@ -878,7 +881,7 @@ body {
         font-size: 1.9rem;
     }
     .inside-home-section > p  {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .inside-home-section {
         padding: 4.7% 5%;
