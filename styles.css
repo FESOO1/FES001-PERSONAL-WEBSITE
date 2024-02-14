@@ -861,8 +861,20 @@ body {
     .info-section {
         width: 600px;
     }
+
+
+
+
     .contact-section {
         width: 600px;
+        flex-direction: column;
+    }
+    .inside-contact-section-1,
+    .inside-contact-section-2 {
+        width: 100%;
+    }
+    .middle-hr {
+        border-top: 1px solid red;
     }
 }
 
@@ -930,6 +942,9 @@ body {
 
     .contact-section {
         width: 400px;
+    }
+    .inside-contact-section-1 > h1 {
+        font-size: 1.4rem;
     }
 }
 
@@ -1003,6 +1018,21 @@ body {
 
     .contact-section {
         width: 300px;
+    }
+    .telegram,
+    .phone,
+    .email,
+    .github {
+        width: 60px;
+        height: 60px;
+    }
+    .telegram > a,
+    .phone > a,
+    .email > a,
+    .github > a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
