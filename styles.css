@@ -456,6 +456,21 @@ body {
     border-radius: 0.5rem;
 }
 
+.contact-section::-webkit-scrollbar {
+    background: #2f3147;
+    width: 6px;
+    border-radius: 5rem;
+}
+
+.contact-section::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+} 
+
+.contact-section::-webkit-scrollbar-thumb {
+    background: rgb(110, 110, 110);
+    border-radius: 1rem;
+}
+
 .inside-contact-section-1,
 .inside-contact-section-2 {
     width: 50%;
@@ -758,6 +773,19 @@ body {
     }
     .contact-section {
         width: 1000px;
+        overflow-y: scroll;
+    }
+    .all-other-links {
+        width: 90%;
+        height: auto;
+        overflow-y: scroll;
+    }
+    .all-links {
+        height: auto;
+        height: 170px;
+    }
+    .footer-container {
+        margin-top: 70px;
     }
 }
 
