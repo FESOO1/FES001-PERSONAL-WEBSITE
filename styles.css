@@ -260,7 +260,6 @@ body {
 
 .contact-section {
     transition: 300ms linear;
-    display: none !important;
     /* right: -85%; */
     /* position: fixed; */
     margin-top: 6px;

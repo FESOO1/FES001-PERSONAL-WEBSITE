@@ -42,29 +42,41 @@ const homeSection = document.querySelector('.home-section')
 const infoSection = document.querySelector('.info-section')
 const contactSection = document.querySelector('.contact-section')
 
-/* document.querySelector('.home-link').addEventListener('click', function(){
-    infoSection.style.left = '-85%';
+document.querySelector('.home-link').addEventListener('click', function(){
+    /* infoSection.style.left = '-85%';
 
     homeSection.style.left = '6%';
 
-    contactSection.style.right = '-85%'
+    contactSection.style.right = '-85%' */
+
+    homeSection.style.display = 'flex';
+    infoSection.style.display = 'none';
+    contactSection.style.display = 'none';
 })
 
 document.querySelector('.info-link').addEventListener('click', function(){
-    infoSection.style.left = '6%';
+    /* infoSection.style.left = '6%';
 
     homeSection.style.left = '-85%';
 
-    contactSection.style.right = '-85%'
+    contactSection.style.right = '-85%' */
+
+    homeSection.style.display = 'none';
+    infoSection.style.display = 'flex';
+    contactSection.style.display = 'none';
 })
 
 document.querySelector('.contact-link').addEventListener('click', function(){
-    infoSection.style.left = '-85%';
+    /* infoSection.style.left = '-85%';
 
     homeSection.style.left = '98%';
 
-    contactSection.style.right = '6%'
-}) */
+    contactSection.style.right = '6%' */
+
+    homeSection.style.display = 'none';
+    infoSection.style.display = 'none';
+    contactSection.style.display = 'flex';
+})
 
 /* DIFFERENT */
 
