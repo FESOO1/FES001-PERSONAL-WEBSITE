@@ -828,6 +828,7 @@ body {
         width: 95%;
     }
     .all-links {
+        padding-left: 5px;
         height: 200px;
     }
     .all-links > a {
