@@ -826,6 +826,9 @@ body {
         padding-top: 15px;
         padding-bottom: 15px;
     }
+
+
+
     .info-section {
         width: 500px;
     }
@@ -840,6 +843,19 @@ body {
     .home-section {
         width: 400px;
     }
+    .inside-home-section > p {
+        font-size: 1.1rem;
+    }
+    .home-ul {
+        padding-left: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .home-ul > code > li {
+        font-size: 0.8rem;
+    }
+
+
     .info-section {
         width: 400px;
     }
