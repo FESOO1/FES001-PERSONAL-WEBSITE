@@ -231,8 +231,7 @@ body {
 
 .home-section {
     margin-top: 6px;
-    width: 90%;
-    /* width: 1300px; */
+    width: 1300px;
     height: 600px;
     background: #1D1E2C;
     box-shadow: 0 10px 4px rgba(0, 0, 0, 0.492);
@@ -338,7 +337,7 @@ body {
 .home-scroll-hint {
     position: absolute;
     top: 11%;
-    right: 11%;
+    right: 7%;
     /* background: #161621; */
     background: var(--background-color-of-all);
     border-radius: 50%;
