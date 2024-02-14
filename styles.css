@@ -288,7 +288,6 @@ body {
     background: #2f3147;
     width: 6px;
     border-radius: 5rem;
-    display: none;
 }
 
 .inside-home-section::-webkit-scrollbar-thumb:hover {
@@ -829,6 +828,18 @@ body {
     }
     .contact-section {
         width: 400px;
+    }
+}
+
+@media (max-width: 406px) {
+    .home-section {
+        width: 350px;
+    }
+    .info-section {
+        width: 350px;
+    }
+    .contact-section {
+        width: 350px;
     }
 }
 
