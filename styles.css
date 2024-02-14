@@ -1019,12 +1019,19 @@ body {
     .contact-section {
         width: 300px;
     }
-    .telegram,
-    .phone,
-    .email,
-    .github {
-        width: 60px;
-        height: 60px;
+    .all-other-links {
+        width: 90%;
+    }
+    .all-links {
+        height: 220px;
+        padding-left: 15px;
+    }
+    .telegram-svg,
+    .phone-svg,
+    .email-svg,
+    .github-svg {
+        width: 35px;
+        height: 35px;
     }
     .telegram > a,
     .phone > a,
@@ -1033,6 +1040,12 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    #online-chat  {
+        width: 82%;
+    }
+    .contact-right-text {
+        font-size: 1.5rem;
     }
 }
 
