@@ -42,7 +42,7 @@ const homeSection = document.querySelector('.home-section')
 const infoSection = document.querySelector('.info-section')
 const contactSection = document.querySelector('.contact-section')
 
-document.querySelector('.home-link').addEventListener('click', function(){
+/* document.querySelector('.home-link').addEventListener('click', function(){
     infoSection.style.left = '-85%';
 
     homeSection.style.left = '6%';
@@ -65,10 +65,10 @@ document.querySelector('.contact-link').addEventListener('click', function(){
 
     contactSection.style.right = '6%'
 })
-
+ */
 /* DIFFERENT */
 
-document.querySelector('.home-section').addEventListener('click', function(){
+/* document.querySelector('.home-section').addEventListener('click', function(){
     infoSection.style.left = '-85%';
 
     homeSection.style.left = '6%';
@@ -90,7 +90,7 @@ document.querySelector('.contact-section').addEventListener('click', function(){
     homeSection.style.left = '98%';
 
     contactSection.style.right = '6%'
-})
+}) */
 
 /* SCROLL  hint */
 
