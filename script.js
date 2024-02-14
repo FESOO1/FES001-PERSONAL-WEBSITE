@@ -64,8 +64,8 @@ document.querySelector('.contact-link').addEventListener('click', function(){
     homeSection.style.left = '98%';
 
     contactSection.style.right = '6%'
-})
- */
+}) */
+
 /* DIFFERENT */
 
 /* document.querySelector('.home-section').addEventListener('click', function(){

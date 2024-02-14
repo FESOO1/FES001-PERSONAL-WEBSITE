@@ -227,7 +227,6 @@ body {
     margin-top: 65px;
     display: flex;
     justify-content: center;
-    /* position: fixed; */
 }
 
 .home-section {
@@ -237,19 +236,18 @@ body {
     background: #1D1E2C;
     box-shadow: 0 10px 4px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
-    /* position: absolute; */
-    position: fixed;
-    left: 6%;
+    /* position: fixed;
+    left: 6%; */
     z-index: 10;
     transition: 300ms linear;
     border: 1px solid rgba(222,222,222,0.1);
 }
 
 .info-section {
+    display: none;
     transition: 300ms linear;
-    left: -85%;
-    /* position: absolute; */
-    position: fixed;
+    /* left: -85%; */
+    /* position: fixed; */
     margin-top: 6px;
     width: 1300px;
     height: 600px;
@@ -262,9 +260,9 @@ body {
 
 .contact-section {
     transition: 300ms linear;
-    right: -85%;
-    /* position: absolute; */
-    position: fixed;
+    display: none !important;
+    /* right: -85%; */
+    /* position: fixed; */
     margin-top: 6px;
     width: 1300px;
     height: 600px;
