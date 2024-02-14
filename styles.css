@@ -862,6 +862,12 @@ body {
     .info-section {
         width: 400px;
     }
+    .inside-info-section h1 {
+        font-size: 2rem;
+    }
+
+
+
     .contact-section {
         width: 400px;
     }
@@ -891,6 +897,15 @@ body {
     .info-section {
         width: 350px;
     }
+    .inside-info-section h1 {
+        font-size: 1.7rem;
+    }
+    .info-figure > iframe {
+        width: 320px;
+    }
+
+
+
     .contact-section {
         width: 350px;
     }
@@ -912,6 +927,20 @@ body {
     .info-section {
         width: 300px;
     }
+    .inside-info-section h1 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .info-figure > iframe {
+        width: 280px;
+    }
+    .info-projects {
+        margin-bottom: 30px;
+    }
+
+
+
     .contact-section {
         width: 300px;
     }
