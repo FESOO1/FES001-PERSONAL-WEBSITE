@@ -808,21 +808,27 @@ body {
 
 @media (max-width: 610px) {
     .home-section {
+        width: 500px;
     }
     .info-section {
+        width: 500px;
     }
     .contact-section {
+        width: 500px;
     }
 }
 
 /* MOBILE S */
 
-@media (max-width: 320px) {
+@media (max-width: 505px) {
     .home-section {
+        width: 400px;
     }
     .info-section {
+        width: 400px;
     }
     .contact-section {
+        width: 400px;
     }
 }
 
