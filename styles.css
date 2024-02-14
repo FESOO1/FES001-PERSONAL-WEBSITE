@@ -226,19 +226,20 @@ body {
     height: calc(100% - 65px);
     margin-top: 65px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    background: red;
 }
 
 .home-section {
     margin-top: 6px;
-    width: 1300px;
+    width: 90%;
+    /* width: 1300px; */
     height: 600px;
     background: #1D1E2C;
     box-shadow: 0 10px 4px rgba(0, 0, 0, 0.492);
     border-radius: 0.3rem;
     /* position: fixed;
     left: 6%; */
-    z-index: 10;
     transition: 300ms linear;
     border: 1px solid rgba(222,222,222,0.1);
 }
