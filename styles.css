@@ -226,8 +226,7 @@ body {
     height: calc(100% - 65px);
     margin-top: 65px;
     display: flex;
-    align-items: center;
-    background: red;
+    justify-content: center;
 }
 
 .home-section {
@@ -240,7 +239,6 @@ body {
     border-radius: 0.3rem;
     /* position: fixed;
     left: 6%; */
-    transition: 300ms linear;
     border: 1px solid rgba(222,222,222,0.1);
 }
 
