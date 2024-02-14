@@ -872,13 +872,16 @@ body {
         font-size: 1.9rem;
     }
     .software-text {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .minus {
-        font-size: 1rem;
+        font-size: 1.9rem;
     }
     .inside-home-section > p  {
         font-size: 0.9rem;
+    }
+    .inside-home-section {
+        padding: 4.7% 5%;
     }
 
 
