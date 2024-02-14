@@ -809,6 +809,20 @@ body {
     .home-section {
         width: 500px;
     }
+    .inside-home-section > h1 {
+        font-size: 2rem;
+    }
+    .software-text {
+        font-size: 1.8rem;
+    }
+    .inside-home-section > p {
+        font-size: 1.3rem;
+    }
+    .home-ul {
+        padding-left: 60px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
     .info-section {
         width: 500px;
     }
