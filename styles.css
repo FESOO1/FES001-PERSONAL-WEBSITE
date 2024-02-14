@@ -900,6 +900,15 @@ body {
     .home-section {
         width: 300px;
     }
+    .inside-home-section > p  {
+        font-size: 0.9rem;
+    }
+    .inside-home-section {
+        padding: 4.7% 4%;
+    }
+
+
+
     .info-section {
         width: 300px;
     }
