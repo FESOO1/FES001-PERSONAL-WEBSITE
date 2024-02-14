@@ -795,6 +795,9 @@ body {
     .home-section {
         width: 600px;
     }
+    .software-text {
+        font-size: 2.1rem;
+    }
     .info-section {
         width: 600px;
     }
