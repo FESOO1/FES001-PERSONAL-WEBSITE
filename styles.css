@@ -771,6 +771,10 @@ body {
     .info-section {
         width: 1000px;
     }
+
+
+
+
     .contact-section {
         width: 1000px;
         overflow-y: scroll;
@@ -778,14 +782,15 @@ body {
     .all-other-links {
         width: 90%;
         height: auto;
-        overflow-y: scroll;
     }
     .all-links {
-        height: auto;
-        height: 170px;
+        height: 175px;
     }
     .footer-container {
         margin-top: 70px;
+    }
+    #online-chat {
+        width: 83%;
     }
 }
 
@@ -812,8 +817,34 @@ body {
     .info-section {
         width: 700px;
     }
+
+
+
+
     .contact-section {
         width: 700px;
+    }
+    .all-other-links {
+        width: 95%;
+    }
+    .all-links {
+        height: 200px;
+    }
+    .all-links > a {
+        font-size: 0.8rem;
+        padding: 1px 0;
+    }
+    .inside-contact-section-1 > h1 {
+        font-size: 1.5rem;
+    }
+    .footer-container {
+        margin-top: 50px;
+    }
+    .footer-container > p {
+        font-size: 0.9rem;
+    }
+    .footer-container > address {
+        font-size: 0.9rem;
     }
 }
 
